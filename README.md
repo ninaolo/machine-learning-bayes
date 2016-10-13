@@ -29,15 +29,11 @@ Run `test_tree_boost_iris()` and `test_tree_boost_vowels()`.
 ## Assignment 7
 **Q1: If you had to pick a classifier, naive Bayes or a decision tree or the boosted versions of these, which one would you pick? Motivate from the following criteria:**
 
-**Outliers**
-
-**Irrelevant inputs: part of the feature space is irrelevant**
-
-**Predictive power**
-
-**Mixed types of data: binary, categorical or continuous features, etc.**
-
-**Scalability: the dimension of the data, D, is large or the number of instances, N, is large, or both.**
+* **Outliers**
+* **Irrelevant inputs: part of the feature space is irrelevant**
+* **Predictive power**
+* **Mixed types of data: binary, categorical or continuous features, etc.**
+* **Scalability: the dimension of the data, D, is large or the number of instances, N, is large, or both.**
 
 **A1:**
 

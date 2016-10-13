@@ -25,15 +25,15 @@ Run `test_boost_iris()` and `test_boost_vowels()`.
 
 **Q1: Is there any improvement in classification accuracy? Why/why not?**
 
-**A1: **
+**A1:**
 
 **Q2: Plot the decision boundary of the boosted classifier on iris and compare it with that of the basic. What differences do you notice? Is the boundary of the boosted version more complex?**
 
-**A2: **
+**A2:**
 
 **Q3: Can we make up for not using a more advanced model in the basic classifier (e.g. independent features) by using boosting?**
 
-**A3: **
+**A3:**
 
 
 ## Assignment 6

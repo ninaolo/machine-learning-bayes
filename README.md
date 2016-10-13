@@ -10,8 +10,11 @@ Look at `compute_prior(labels)` and `classifyBayes(X, prior, mu, sigma)`.
 Run `test_bayes_iris()` and `test_bayes_vowels()`.
 
 **Q1: When can a feature independence assumption be reasonable and when not?**
-**A1: **
+
+**A1:**
+
 **Q2: How does the decision boundary look for the Iris dataset? How could one improve the classification results for this scenario by changing classifier or, alternatively, manipulating the data?**
+
 **A2:**
 
 ## Assignment 4

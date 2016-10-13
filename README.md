@@ -11,7 +11,7 @@ Run `test_bayes_iris()` and `test_bayes_vowels()`.
 
 **Q1: When can a feature independence assumption be reasonable and when not?**
 
-**A1:**
+**A1:** It is reasonable when the features are 
 
 **Q2: How does the decision boundary look for the Iris dataset? How could one improve the classification results for this scenario by changing classifier or, alternatively, manipulating the data?**
 
@@ -22,6 +22,19 @@ Look at `ml_params(X, labels, W)`.
 
 ## Assignment 5
 Run `test_boost_iris()` and `test_boost_vowels()`.
+
+**Q1: Is there any improvement in classification accuracy? Why/why not?**
+
+**A1: **
+
+**Q2: Plot the decision boundary of the boosted classifier on iris and compare it with that of the basic. What differences do you notice? Is the boundary of the boosted version more complex?**
+
+**A2: **
+
+**Q3: Can we make up for not using a more advanced model in the basic classifier (e.g. independent features) by using boosting?**
+
+**A3: **
+
 
 ## Assignment 6
 Run `test_tree_boost_iris()` and `test_tree_boost_vowels()`.

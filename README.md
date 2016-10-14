@@ -1,4 +1,5 @@
 # Bayesian Learning and Boosting
+This is lab3 in a machine learning course at KTH.
 
 ## Assignment 1
 Run `test_ml_estimates()`.

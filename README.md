@@ -33,7 +33,8 @@ Run `test_boost_iris()` and `test_boost_vowels()`.
 
 **Q3: Can we make up for not using a more advanced model in the basic classifier (e.g. independent features) by using boosting?**
 
-**A3:**
+**A3:** As the results show, the boosted classifier(s) results i better classification accuracy and std. deviation. As we said before regarding the dependence of the features for Iris, we can see that the NB can perform suprisingly well. Although the boosting aggregates the weights for more certain prediction, which works to our advantage here. So in some extent yes.
+
 
 
 ## Assignment 6

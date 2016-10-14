@@ -11,11 +11,11 @@ Run `test_bayes_iris()` and `test_bayes_vowels()`.
 
 **Q1: When can a feature independence assumption be reasonable and when not?**
 
-**A1:** It is reasonable when the features are 
+**A1:** It is reasonable when the features are conditionally independent given classification, or at least reasonably independent, still works with little dependence. However if features a strictly correlated and not cancel each other out, NB assumption do not perform as good. Naïve Bayes can perform surprisingly well even on complex tasks where it is clear that the strong independence assumptions are false. No matter how strong the dependencies among attributes are, naive Bayes can still be optimal if the they distribute evenly in classes, or cancel each other out.
 
 **Q2: How does the decision boundary look for the Iris dataset? How could one improve the classification results for this scenario by changing classifier or, alternatively, manipulating the data?**
 
-**A2:**
+**A2:** The decision boundary could become more complex (see figure). 
 
 ## Assignment 4
 Look at `ml_params(X, labels, W)`.

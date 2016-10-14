@@ -42,11 +42,12 @@ Run `test_tree_boost_iris()` and `test_tree_boost_vowels()`.
 ## Assignment 7
 **Q1: If you had to pick a classifier, naive Bayes or a decision tree or the boosted versions of these, which one would you pick? Motivate from the following criteria:**
 
+**Bayes**
 * **Outliers**
 * **Irrelevant inputs: part of the feature space is irrelevant**
-* **Predictive power**
+* **Predictive power --> **NB classifiers estimate badly, but often classify well.
 * **Mixed types of data: binary, categorical or continuous features, etc.**
-* **Scalability: the dimension of the data, D, is large or the number of instances, N, is large, or both.**
+* **Scalability: the dimension of the data, D, is large or the number of instances, N, is large, or both. --> **NB's main strength is its efficiency: Training and classification can be accomplished with one pass over the data. 
 
 **A1:**
 

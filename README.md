@@ -15,7 +15,7 @@ Run `test_bayes_iris()` and `test_bayes_vowels()`.
 
 **Q2: How does the decision boundary look for the Iris dataset? How could one improve the classification results for this scenario by changing classifier or, alternatively, manipulating the data?**
 
-**A2:** The decision boundary could become more complex (see figure). 
+**A2:** The decision boundary could become more complex (see figure). Since the Iris attributes consist of length and width for the Petals and Sepals, one can assume some correlation between the attributes for some classes. Thus a more complex model for classification could be used, i.e non-Naive model. Although the accuracy is quite good with with the current NB for Iris dataset. A linear transformation cpuld be used in the attempt to decorrelate the data.
 
 ## Assignment 4
 Look at `ml_params(X, labels, W)`.

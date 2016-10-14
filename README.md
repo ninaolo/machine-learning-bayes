@@ -25,11 +25,11 @@ Run `test_boost_iris()` and `test_boost_vowels()`.
 
 **Q1: Is there any improvement in classification accuracy? Why/why not?**
 
-**A1:**
+**A1:** Yes. Iris: 89 --> 94.2. Vowels: 64.7 --> 77.1. The reason is that boosting has taken multiple weak learners and combined their predictions into a strong learner. Also, boosting reduces variance and this was the case since the std.dev was reduced in both cases (and std.dev = sqrt(var)).
 
 **Q2: Plot the decision boundary of the boosted classifier on iris and compare it with that of the basic. What differences do you notice? Is the boundary of the boosted version more complex?**
 
-**A2:**
+**A2:** Yes, it is more complex. It first looks like a parabola, but after combining multiple classifiers it looses the parabola shape and becomes more complex.
 
 **Q3: Can we make up for not using a more advanced model in the basic classifier (e.g. independent features) by using boosting?**
 
@@ -45,9 +45,9 @@ Run `test_tree_boost_iris()` and `test_tree_boost_vowels()`.
 **Bayes**
 * **Outliers**
 * **Irrelevant inputs: part of the feature space is irrelevant**
-* **Predictive power --> **NB classifiers estimate badly, but often classify well.
+* **Predictive power -->** NB classifiers estimate badly, but often classify well.
 * **Mixed types of data: binary, categorical or continuous features, etc.**
-* **Scalability: the dimension of the data, D, is large or the number of instances, N, is large, or both. --> **NB's main strength is its efficiency: Training and classification can be accomplished with one pass over the data. 
+* **Scalability: the dimension of the data, D, is large or the number of instances, N, is large, or both. -->** NB's main strength is its efficiency: Training and classification can be accomplished with one pass over the data. 
 
 **A1:**
 

@@ -1,0 +1,11 @@
+Trial: 0 Accuracy 63.6
+Trial: 10 Accuracy 68.8
+Trial: 20 Accuracy 63.6
+Trial: 30 Accuracy 66.9
+Trial: 40 Accuracy 59.7
+Trial: 50 Accuracy 63
+Trial: 60 Accuracy 59.7
+Trial: 70 Accuracy 68.8
+Trial: 80 Accuracy 59.7
+Trial: 90 Accuracy 68.2
+Final mean classification accuracy  64.1 with standard deviation 4
